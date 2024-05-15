@@ -14,7 +14,7 @@ body{
 }
 
 #formimg {
-    width: 30vw;
+    width: 50%;
 }
 
 
@@ -28,4 +28,41 @@ body{
     width: 55vw;
     height: 80vh;
     
+}
+
+.texto{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: #36384D;
+}
+
+#button {
+    margin-top: 5%;
+    width: 100%;
+    background-color: #36384D;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form-group {
+    width: 80%;
+
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
 }
