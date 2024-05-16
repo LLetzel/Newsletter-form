@@ -14,7 +14,7 @@ body{
 }
 
 #formimg {
-    width: 50%;
+    width: 45%;
 }
 
 
@@ -37,14 +37,16 @@ body{
     align-items: center;
 }
 
-h1 {
+#h1 {
     font-weight: bold;
     font-style: italic;
     color: #36384D;
+    margin-bottom: 25px;
 }
 
 #button {
     margin-top: 5%;
+    height: 15%;
     width: 100%;
     background-color: #36384D;
 }
@@ -55,6 +57,7 @@ form {
     align-items: center;
     flex-direction: column;
     width: 80%;
+    margin: 40px;
 }
 
 .form-group {
@@ -65,4 +68,17 @@ form {
 .container-left{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+/* ---------------------------------------------------- */
+
+.containersucess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #ffff;
+    height: 70%;
+    width: 35%;
 }
